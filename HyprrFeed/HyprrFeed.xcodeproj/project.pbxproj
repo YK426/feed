@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2916579B251675DD00107FD0 /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916579A251675DD00107FD0 /* Backend.swift */; };
+		2932087D25150F25006EA7E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932087C25150F25006EA7E3 /* AppDelegate.swift */; };
+		2932087F25150F25006EA7E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932087E25150F25006EA7E3 /* SceneDelegate.swift */; };
+		2932088125150F25006EA7E3 /* DiscoverListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932088025150F25006EA7E3 /* DiscoverListView.swift */; };
+		2932088325150F26006EA7E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2932088225150F26006EA7E3 /* Assets.xcassets */; };
+		2932089425150F26006EA7E3 /* HyprrFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932089325150F26006EA7E3 /* HyprrFeedTests.swift */; };
+		293208A225151089006EA7E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2932088725150F26006EA7E3 /* LaunchScreen.storyboard */; };
+		293208B125155013006EA7E3 /* DiscoverPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293208B025155013006EA7E3 /* DiscoverPresenter.swift */; };
+		293208B325155039006EA7E3 /* DiscoverInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293208B225155039006EA7E3 /* DiscoverInteractor.swift */; };
+		293208B625160418006EA7E3 /* FastFoodFeedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293208B525160418006EA7E3 /* FastFoodFeedRow.swift */; };
+		2954E6E925174930004BCF3F /* DiscoverListRowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2954E6E825174930004BCF3F /* DiscoverListRowData.swift */; };
+		2954E6EF25174952004BCF3F /* FastFoodFeedRowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2954E6EE25174952004BCF3F /* FastFoodFeedRowData.swift */; };
+		2954E6F32517497E004BCF3F /* ChannelsFeedRowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2954E6F22517497E004BCF3F /* ChannelsFeedRowData.swift */; };
+		296EADA32516668500EFA29B /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 296EADA22516668500EFA29B /* Apollo */; };
+		29F18B9925162C2D00E8A632 /* ChannelsFeedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F18B9825162C2D00E8A632 /* ChannelsFeedRow.swift */; };
+		29F18B9D251641F300E8A632 /* DiscoverAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F18B9C251641F300E8A632 /* DiscoverAssembly.swift */; };
+		29FDDF3D25178C15006E478F /* DiscoverChannelsFeedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDDF3C25178C15006E478F /* DiscoverChannelsFeedRepository.swift */; };
+		29FDDF4625178F28006E478F /* DiscoverChannelsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDDF4525178F27006E478F /* DiscoverChannelsFeed.swift */; };
+		29FDDF5725179142006E478F /* OutputStreamRepositoty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDDF5625179142006E478F /* OutputStreamRepositoty.swift */; };
+		29FDDF5D2517AC1D006E478F /* DiscoverFastFoodFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDDF5C2517AC1D006E478F /* DiscoverFastFoodFeed.swift */; };
+		29FDDF612517AEBA006E478F /* DiscoverFastFoodFeedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDDF602517AEBA006E478F /* DiscoverFastFoodFeedRepository.swift */; };
+		29FDDF672517B38F006E478F /* DiscoverRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDDF662517B38F006E478F /* DiscoverRepository.swift */; };
+		29FDDF6E2517C4E6006E478F /* RemoteRowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDDF6D2517C4E6006E478F /* RemoteRowImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2932089025150F26006EA7E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2932087125150F25006EA7E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2932087825150F25006EA7E3;
+			remoteInfo = HyprrFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2916579A251675DD00107FD0 /* Backend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+		2932087925150F25006EA7E3 /* HyprrFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyprrFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2932087C25150F25006EA7E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2932087E25150F25006EA7E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2932088025150F25006EA7E3 /* DiscoverListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverListView.swift; sourceTree = "<group>"; };
+		2932088225150F26006EA7E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2932088825150F26006EA7E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2932088F25150F26006EA7E3 /* HyprrFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyprrFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2932089325150F26006EA7E3 /* HyprrFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyprrFeedTests.swift; sourceTree = "<group>"; };
+		2932089525150F26006EA7E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293208B025155013006EA7E3 /* DiscoverPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverPresenter.swift; sourceTree = "<group>"; };
+		293208B225155039006EA7E3 /* DiscoverInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverInteractor.swift; sourceTree = "<group>"; };
+		293208B525160418006EA7E3 /* FastFoodFeedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastFoodFeedRow.swift; sourceTree = "<group>"; };
+		2954E6DA25174527004BCF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2954E6E825174930004BCF3F /* DiscoverListRowData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverListRowData.swift; sourceTree = "<group>"; };
+		2954E6EE25174952004BCF3F /* FastFoodFeedRowData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastFoodFeedRowData.swift; sourceTree = "<group>"; };
+		2954E6F22517497E004BCF3F /* ChannelsFeedRowData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsFeedRowData.swift; sourceTree = "<group>"; };
+		296EADA725166BC500EFA29B /* backend.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = backend.graphql; sourceTree = "<group>"; };
+		296EADAA251672A600EFA29B /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		29F18B9825162C2D00E8A632 /* ChannelsFeedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsFeedRow.swift; sourceTree = "<group>"; };
+		29F18B9C251641F300E8A632 /* DiscoverAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverAssembly.swift; sourceTree = "<group>"; };
+		29FDDF3C25178C15006E478F /* DiscoverChannelsFeedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverChannelsFeedRepository.swift; sourceTree = "<group>"; };
+		29FDDF4525178F27006E478F /* DiscoverChannelsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverChannelsFeed.swift; sourceTree = "<group>"; };
+		29FDDF5625179142006E478F /* OutputStreamRepositoty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputStreamRepositoty.swift; sourceTree = "<group>"; };
+		29FDDF5C2517AC1D006E478F /* DiscoverFastFoodFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverFastFoodFeed.swift; sourceTree = "<group>"; };
+		29FDDF602517AEBA006E478F /* DiscoverFastFoodFeedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverFastFoodFeedRepository.swift; sourceTree = "<group>"; };
+		29FDDF662517B38F006E478F /* DiscoverRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverRepository.swift; sourceTree = "<group>"; };
+		29FDDF6D2517C4E6006E478F /* RemoteRowImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRowImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2932087625150F25006EA7E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296EADA32516668500EFA29B /* Apollo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2932088C25150F26006EA7E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2932087025150F25006EA7E3 = {
+			isa = PBXGroup;
+			children = (
+				2932087B25150F25006EA7E3 /* HyprrFeed */,
+				2932089225150F26006EA7E3 /* HyprrFeedTests */,
+				2932087A25150F25006EA7E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2932087A25150F25006EA7E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2932087925150F25006EA7E3 /* HyprrFeed.app */,
+				2932088F25150F26006EA7E3 /* HyprrFeedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2932087B25150F25006EA7E3 /* HyprrFeed */ = {
+			isa = PBXGroup;
+			children = (
+				2932087C25150F25006EA7E3 /* AppDelegate.swift */,
+				2932087E25150F25006EA7E3 /* SceneDelegate.swift */,
+				293208AA25154F09006EA7E3 /* Common */,
+				293208AB25154F55006EA7E3 /* Discover List */,
+				296EADA525166B3C00EFA29B /* Infrastructure */,
+				2932089F25150F64006EA7E3 /* Resource */,
+				2932089E25150F53006EA7E3 /* Supporting File */,
+			);
+			path = HyprrFeed;
+			sourceTree = "<group>";
+		};
+		2932089225150F26006EA7E3 /* HyprrFeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				2932089325150F26006EA7E3 /* HyprrFeedTests.swift */,
+				2932089525150F26006EA7E3 /* Info.plist */,
+			);
+			path = HyprrFeedTests;
+			sourceTree = "<group>";
+		};
+		2932089E25150F53006EA7E3 /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				2954E6DA25174527004BCF3F /* Info.plist */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		2932089F25150F64006EA7E3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2932088725150F26006EA7E3 /* LaunchScreen.storyboard */,
+				2932088225150F26006EA7E3 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		293208AA25154F09006EA7E3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				29FDDF4D2517903C006E478F /* Repository */,
+				29FDDF4425178F19006E478F /* Entity */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		293208AB25154F55006EA7E3 /* Discover List */ = {
+			isa = PBXGroup;
+			children = (
+				29F18B9C251641F300E8A632 /* DiscoverAssembly.swift */,
+				293208B025155013006EA7E3 /* DiscoverPresenter.swift */,
+				293208B225155039006EA7E3 /* DiscoverInteractor.swift */,
+				29FDDF662517B38F006E478F /* DiscoverRepository.swift */,
+				293208B425160409006EA7E3 /* View */,
+			);
+			path = "Discover List";
+			sourceTree = "<group>";
+		};
+		293208B425160409006EA7E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2954E6E7251748AD004BCF3F /* View Data */,
+				2932088025150F25006EA7E3 /* DiscoverListView.swift */,
+				293208B525160418006EA7E3 /* FastFoodFeedRow.swift */,
+				29F18B9825162C2D00E8A632 /* ChannelsFeedRow.swift */,
+				29FDDF6D2517C4E6006E478F /* RemoteRowImage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2954E6E7251748AD004BCF3F /* View Data */ = {
+			isa = PBXGroup;
+			children = (
+				2954E6E825174930004BCF3F /* DiscoverListRowData.swift */,
+				2954E6EE25174952004BCF3F /* FastFoodFeedRowData.swift */,
+				2954E6F22517497E004BCF3F /* ChannelsFeedRowData.swift */,
+			);
+			path = "View Data";
+			sourceTree = "<group>";
+		};
+		296EADA525166B3C00EFA29B /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				2916579A251675DD00107FD0 /* Backend.swift */,
+				296EADAA251672A600EFA29B /* schema.json */,
+				296EADA725166BC500EFA29B /* backend.graphql */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		29FDDF4425178F19006E478F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				29FDDF4525178F27006E478F /* DiscoverChannelsFeed.swift */,
+				29FDDF5C2517AC1D006E478F /* DiscoverFastFoodFeed.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		29FDDF4D2517903C006E478F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				29FDDF5625179142006E478F /* OutputStreamRepositoty.swift */,
+				29FDDF3C25178C15006E478F /* DiscoverChannelsFeedRepository.swift */,
+				29FDDF602517AEBA006E478F /* DiscoverFastFoodFeedRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2932087825150F25006EA7E3 /* HyprrFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2932089825150F26006EA7E3 /* Build configuration list for PBXNativeTarget "HyprrFeed" */;
+			buildPhases = (
+				2932087525150F25006EA7E3 /* Sources */,
+				2932087625150F25006EA7E3 /* Frameworks */,
+				2932087725150F25006EA7E3 /* Resources */,
+				296EADA425166A9700EFA29B /* Run Apollo  */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyprrFeed;
+			packageProductDependencies = (
+				296EADA22516668500EFA29B /* Apollo */,
+			);
+			productName = HyprrFeed;
+			productReference = 2932087925150F25006EA7E3 /* HyprrFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2932088E25150F26006EA7E3 /* HyprrFeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2932089B25150F26006EA7E3 /* Build configuration list for PBXNativeTarget "HyprrFeedTests" */;
+			buildPhases = (
+				2932088B25150F26006EA7E3 /* Sources */,
+				2932088C25150F26006EA7E3 /* Frameworks */,
+				2932088D25150F26006EA7E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2932089125150F26006EA7E3 /* PBXTargetDependency */,
+			);
+			name = HyprrFeedTests;
+			productName = HyprrFeedTests;
+			productReference = 2932088F25150F26006EA7E3 /* HyprrFeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2932087125150F25006EA7E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = noname;
+				TargetAttributes = {
+					2932087825150F25006EA7E3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					2932088E25150F26006EA7E3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 2932087825150F25006EA7E3;
+					};
+				};
+			};
+			buildConfigurationList = 2932087425150F25006EA7E3 /* Build configuration list for PBXProject "HyprrFeed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2932087025150F25006EA7E3;
+			packageReferences = (
+				296EADA12516668500EFA29B /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = 2932087A25150F25006EA7E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2932087825150F25006EA7E3 /* HyprrFeed */,
+				2932088E25150F26006EA7E3 /* HyprrFeedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2932087725150F25006EA7E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293208A225151089006EA7E3 /* LaunchScreen.storyboard in Resources */,
+				2932088325150F26006EA7E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2932088D25150F26006EA7E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		296EADA425166A9700EFA29B /* Run Apollo  */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Apollo ";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"Infrastructure/schema.json\" Infrastructure/Backend.swift\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2932087525150F25006EA7E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F18B9D251641F300E8A632 /* DiscoverAssembly.swift in Sources */,
+				29F18B9925162C2D00E8A632 /* ChannelsFeedRow.swift in Sources */,
+				293208B125155013006EA7E3 /* DiscoverPresenter.swift in Sources */,
+				2954E6E925174930004BCF3F /* DiscoverListRowData.swift in Sources */,
+				29FDDF672517B38F006E478F /* DiscoverRepository.swift in Sources */,
+				2954E6F32517497E004BCF3F /* ChannelsFeedRowData.swift in Sources */,
+				29FDDF612517AEBA006E478F /* DiscoverFastFoodFeedRepository.swift in Sources */,
+				29FDDF5D2517AC1D006E478F /* DiscoverFastFoodFeed.swift in Sources */,
+				29FDDF4625178F28006E478F /* DiscoverChannelsFeed.swift in Sources */,
+				2916579B251675DD00107FD0 /* Backend.swift in Sources */,
+				29FDDF5725179142006E478F /* OutputStreamRepositoty.swift in Sources */,
+				29FDDF6E2517C4E6006E478F /* RemoteRowImage.swift in Sources */,
+				2932087D25150F25006EA7E3 /* AppDelegate.swift in Sources */,
+				293208B625160418006EA7E3 /* FastFoodFeedRow.swift in Sources */,
+				2954E6EF25174952004BCF3F /* FastFoodFeedRowData.swift in Sources */,
+				2932087F25150F25006EA7E3 /* SceneDelegate.swift in Sources */,
+				2932088125150F25006EA7E3 /* DiscoverListView.swift in Sources */,
+				293208B325155039006EA7E3 /* DiscoverInteractor.swift in Sources */,
+				29FDDF3D25178C15006E478F /* DiscoverChannelsFeedRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2932088B25150F26006EA7E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2932089425150F26006EA7E3 /* HyprrFeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2932089125150F26006EA7E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2932087825150F25006EA7E3 /* HyprrFeed */;
+			targetProxy = 2932089025150F26006EA7E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2932088725150F26006EA7E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2932088825150F26006EA7E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2932089625150F26006EA7E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2932089725150F26006EA7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2932089925150F26006EA7E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HyprrFeed/Resource\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HyprrFeed/Supporting File/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HyprrFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2932089A25150F26006EA7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HyprrFeed/Resource\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HyprrFeed/Supporting File/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HyprrFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2932089C25150F26006EA7E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HyprrFeedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HyprrFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyprrFeed.app/HyprrFeed";
+			};
+			name = Debug;
+		};
+		2932089D25150F26006EA7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HyprrFeedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HyprrFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyprrFeed.app/HyprrFeed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2932087425150F25006EA7E3 /* Build configuration list for PBXProject "HyprrFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2932089625150F26006EA7E3 /* Debug */,
+				2932089725150F26006EA7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2932089825150F26006EA7E3 /* Build configuration list for PBXNativeTarget "HyprrFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2932089925150F26006EA7E3 /* Debug */,
+				2932089A25150F26006EA7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2932089B25150F26006EA7E3 /* Build configuration list for PBXNativeTarget "HyprrFeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2932089C25150F26006EA7E3 /* Debug */,
+				2932089D25150F26006EA7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		296EADA12516668500EFA29B /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.33.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		296EADA22516668500EFA29B /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 296EADA12516668500EFA29B /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2932087125150F25006EA7E3 /* Project object */;
+}

@@ -1,0 +1,60 @@
+# Long content
+query DiscoverChannelsFeed($after: String) {
+  discoverChannelsFeed(after: $after) {
+    edges {
+      cursor
+      node {
+        id
+        title
+        content
+        author {
+          name
+          avatar {
+            big
+          }
+        }
+        video {
+          cover {
+            thumbnails {
+              big {
+                url
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+# Short content
+query DiscoverFastFoodFeed($after: String = null) {
+  discoverFastFoodFeed(after: $after) {
+    edges {
+      cursor
+      node {
+        id
+        files {
+          __typename
+          ... on AttachmentImage {
+              url
+          }
+          __typename
+          ... on AttachmentVideo {
+              cover {
+              thumbnails {
+                big {
+                  url
+                }
+              }
+            }
+          }
+        }
+        author {
+            name
+        }
+        caption
+      }
+    }
+  }
+}
